@@ -1,0 +1,16 @@
+:root{
+    --green-color : #41FB00;
+    --nav-color : #0c0e0f;
+    --bg-color : #23272a;
+    --text-font : 'Oxygen', sans-serif;
+    --hover-color : #43D99A;
+    --header_text : 'Audiowide', cursive;
+}
+
+
+.home {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    max-height: 1010px;
+}
