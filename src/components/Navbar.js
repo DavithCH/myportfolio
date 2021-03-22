@@ -20,7 +20,7 @@ function Navbar() {
                         </a>
                         
                     </li>
-                    <li className="nav__ele" onClick>
+                    <li className="nav__ele">
                         <a href="#about">
                             <AccountBoxIcon className="nav_ele_icons"/>
                             <span className="nav_ele_text">About</span>
@@ -39,7 +39,7 @@ function Navbar() {
                         </a>
                     </li>
                     <li className="nav__ele">
-                        <a>
+                        <a href="#projects">
                             <FolderIcon className="nav_ele_icons"/>
                             <span className="nav_ele_text">Projects</span>
                         </a> 

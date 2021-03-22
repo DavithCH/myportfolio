@@ -1,6 +1,6 @@
 import React from 'react'
 import './Skill.css'
-import Skills from './skills/Skills'
+import Skills from './Skills/Skills'
 
 class Skill extends React.Component {
         state = {

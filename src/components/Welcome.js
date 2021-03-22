@@ -34,10 +34,9 @@ function Welcome() {
             </div>
 
             <div className="div__rs__icons">
-                <span className="rs__icons"><LinkedInIcon /></span>
-                <span className="rs__icons"><FacebookIcon /></span>
-                <span className="rs__icons"><GitHubIcon /></span>
-                <span className="rs__icons"><TwitterIcon /></span>
+                <a href="https://www.linkedin.com/in/davith-chhung-8859b2151/"  target="_blank"><span className="rs__icons"><LinkedInIcon /></span></a>
+                <a href="https://github.com/DavithCH" target="_blank"><span className="rs__icons"><GitHubIcon /></span></a>
+                <a href="https://twitter.com/ChhungDavith" target="_blank"><span className="rs__icons"><TwitterIcon /></span></a>
             </div>
             
         </div> 

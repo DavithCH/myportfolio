@@ -1,0 +1,52 @@
+.project {
+  background-color: whitesmoke;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px lightgray;
+}
+
+.project h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: smaller;
+  letter-spacing: 0.5px;
+  color: green;
+  padding: 20px 0;
+  font-family: var(--header_text);
+}
+.project__body {
+  margin: 5px 30px;
+}
+
+.project img {
+  height: 250px;
+  width: 100%;
+}
+
+.project p {
+  color: black;
+  padding: 5px 5px;
+  font-family: var(--text-font);
+  text-align: left;
+  letter-spacing: 1px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.project p a {
+  display: inline-block;
+  text-decoration: none;
+  letter-spacing: 1px;
+  color: white;
+  font-weight: 500;
+  padding: 10px 10px;
+  border-radius: 5px;
+  background-color: rgb(33, 175, 33);
+  text-transform: uppercase;
+  font-size: smaller;
+}
+
+.project p a:hover {
+  background-color: var(--hover-color);
+  color: black;
+  transition: 0.5s;
+}
